@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import { useRouter } from "next/navigation";
+import Image from 'next/image'
 
 import Input from "./Input";
 
@@ -112,7 +113,7 @@ const Registrarse = ({ variants, toggleSesion, initial, animate }) => {
     <>
       <BoxForm variants={variants} initial={initial} animate={animate}>
         <BoxClose onClick={handleClick}>
-          <img
+          <Image
             src="/iconCerrar.svg"
             alt="Icono para cerrar la pesta de sesion"
           />

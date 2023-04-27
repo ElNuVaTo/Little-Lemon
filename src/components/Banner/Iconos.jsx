@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import styled from "styled-components";
+import Image from 'next/image'
 
 const Box = styled.div`
   display: flex;
@@ -31,7 +32,7 @@ const Iconos = ({ src, Texto }) => {
     <>
       <Box>
         <BoxImg>
-          <img src={src} alt="" width={10} />
+          <Image src={src} alt="" width={10} />
         </BoxImg>
         <p>{Texto}</p>
       </Box>

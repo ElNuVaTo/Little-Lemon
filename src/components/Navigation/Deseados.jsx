@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Image from "next/image";
 
 const BoxImg = styled.div`
   margin-bottom: 10px;
@@ -24,7 +25,7 @@ const Deseados = () => {
   return (
     <>
       <BoxImg>
-        <img src="" />
+        <Image src="/" alt="" />
       </BoxImg>
     </>
   );
