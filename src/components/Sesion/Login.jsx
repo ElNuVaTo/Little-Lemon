@@ -97,6 +97,7 @@ const Login = ({ variants, toggleSesion, initial, animate }) => {
           <Image
             src="/iconCerrar.svg"
             alt="Icono para cerrar la pesta de sesion"
+            fill
           />
         </BoxClose>
 

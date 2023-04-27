@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import React from "react";
 import styled from "styled-components";
-import Image from 'next/image'
+import Image from "next/image";
 
 import Iconos from "./Iconos";
 
@@ -59,7 +59,12 @@ const Banner = () => {
         </BoxIconos>
 
         <BoxBanner>
-          <Image src="/imgBanner.avif" alt="" />
+          <Image
+            src="/imgBanner.avif"
+            alt="Imagen del banner, con comida peruana que representa al restaurante"
+            fill
+            priority
+          />
           <History>
             Little Lemon es un restaurante de cocina peruana con precios
             moderados y ambiente relajado. El menú rotativo de 12 a 15 platos

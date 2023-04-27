@@ -32,7 +32,7 @@ const Iconos = ({ src, Texto }) => {
     <>
       <Box>
         <BoxImg>
-          <Image src={src} alt="" width={10} />
+          <Image src={src} alt="" width={10} height={10}/>
         </BoxImg>
         <p>{Texto}</p>
       </Box>

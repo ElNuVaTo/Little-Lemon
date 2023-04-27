@@ -36,12 +36,12 @@ p {
 
 /* Estilos para la barra de desplazamiento */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 /* Estilos para el pulgar de la barra de desplazamiento */
 ::-webkit-scrollbar-thumb {
-  background-color: #3a3a3a;
+  background-color: #252525;
 }
 
 /* Estilos para el fondo de la barra de desplazamiento */
@@ -49,3 +49,11 @@ p {
   background-color: #ffffff;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}

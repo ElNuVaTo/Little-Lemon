@@ -60,6 +60,18 @@ const BoxDesplegado = styled(motion.div)`
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 5;
 `;
+const BoxDesplegadoFavoritos = styled(motion.div)`
+  position: absolute;
+  left: 0;
+  top: 58px;
+  width: 100%;
+  padding: 10px;
+  background-color: #4c5d55;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+  overflow-y: scroll;
+  max-height: 400px;
+`;
 
 const variants = {
   FavoritosInactivo: {
@@ -72,7 +84,7 @@ const variants = {
   },
   FavoritosActivo: {
     opacity: 1,
-    height: "380px",
+    height: "max-content",
     y: 0,
     transition: {
       duration: 0.35,
@@ -176,7 +188,7 @@ const Navegacion = () => {
         </BoxOpciones>
       </Nav>
 
-      <BoxDesplegado
+      <BoxDesplegadoFavoritos
         ref={refDeseados}
         initial={false}
         variants={variants}
@@ -191,7 +203,7 @@ const Navegacion = () => {
             />
           </div>
         ))}
-      </BoxDesplegado>
+      </BoxDesplegadoFavoritos>
 
       <BoxDesplegado
         ref={refCarro}

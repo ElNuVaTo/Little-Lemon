@@ -28,16 +28,7 @@ const Opciones = () => {
         <StyledLink href="/sesion/">Iniciar Sesion</StyledLink>
       </MenuOption>
       <MenuOption>
-        <StyledLink href="/">Ofertas</StyledLink>
-      </MenuOption>
-      <MenuOption>
-        <StyledLink href="/">Historial</StyledLink>
-      </MenuOption>
-      <MenuOption>
-        <StyledLink href="/">Ayuda</StyledLink>
-      </MenuOption>
-      <MenuOption>
-        <StyledLink href="/">Acerca de Little Lemon</StyledLink>
+        <StyledLink href="/preguntas/">Preguntas Frecuentes</StyledLink>
       </MenuOption>
     </>
   );

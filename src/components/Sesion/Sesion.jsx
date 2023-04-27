@@ -9,7 +9,7 @@ import Fondo from "./Fondo";
 const Box = styled.div`
   padding: 50px 0 0 0;
   width: 100%;
-  height: calc(100vh - 58px);
+  min-height: calc(100vh - 58px);
   overflow: hidden;
   position: relative;
 `;
