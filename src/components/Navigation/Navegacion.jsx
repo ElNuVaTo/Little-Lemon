@@ -195,7 +195,7 @@ const Navegacion = () => {
         animate={deseados ? "FavoritosActivo" : "FavoritosInactivo"}
       >
         {saveFavoritos.map((item, index) => (
-          <div key={index}>
+          <div key={index.src}>
             <SaveFavoritos
               src={item.src}
               precio={item.precio}
